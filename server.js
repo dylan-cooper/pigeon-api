@@ -4,7 +4,7 @@ const express = require('express'),
 
 var app = express()
 
-app.set('port', 3002);
+app.set('port', 8080);
 
 app.use(morgan('dev'));
 
